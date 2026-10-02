@@ -105,6 +105,8 @@ h2{ font-size:clamp(28px,4vw,38px); }
 /* ---------- services ---------- */
 .svc-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:42px; }
 @media (max-width:860px){ .svc-grid{ grid-template-columns:1fr; } }
+.svc-grid.two{ grid-template-columns:repeat(2,1fr); }
+@media (max-width:860px){ .svc-grid.two{ grid-template-columns:1fr; } }
 .svc-card{
   background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
   padding:28px 26px; position:relative; overflow:hidden;
