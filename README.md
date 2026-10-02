@@ -9,6 +9,10 @@ Static site, no build step. Same brand system as the business cards and flyers: 
 - `favicon.svg`
 - `assets/docs/` — PDF info sheets linked from the Training and Residential service cards
 
+## Lawn aeration sub-site
+
+`aeration/` is a second, self-contained site for RDJ Services' lawn aeration business (`/aeration/` once deployed), with its own `index.html`, `styles.css`, and `favicon.svg`. The two sites link to each other from the nav and footer. Content came from the Nextdoor business page; the Neighborhood Favorite years (2021–2025) and the two quoted recommendations are from that page — re-check them against Nextdoor before relying on exact wording. The photo/video gallery is a commented-out block in `aeration/index.html` (search for "PHOTO / VIDEO GALLERY") — uncomment it once files are in `aeration/assets/`.
+
 ## Local preview
 
 No build tooling needed — any static file server works:
